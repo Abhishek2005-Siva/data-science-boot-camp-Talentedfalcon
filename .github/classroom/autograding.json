@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "day-00 test",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "cd day00 && wget https://bitgarden.tech/test_day00.py && pytest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
